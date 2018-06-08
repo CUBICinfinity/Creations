@@ -1,3 +1,3 @@
 # Creations
 
-This repository contains various creations that I wanted to include.
+I created this repository to serve as a portfolio.
