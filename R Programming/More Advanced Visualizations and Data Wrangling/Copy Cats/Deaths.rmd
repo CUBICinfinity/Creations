@@ -1,0 +1,82 @@
+---
+title: "Recreating Share of Deaths by Cause"
+author: "Jim Greene"
+output:
+  html_document:
+    keep_md: true
+    theme: paper
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = F, warning = F)
+```
+
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(extrafont)
+```
+
+```{r}
+global_mort <- read_xlsx("global_mortality.xlsx") %>% 
+  gather(key = "cause", value = "percent", 4:35) %>% 
+  mutate(cause = str_remove_all(cause, "\\s\\(%\\)"))
+```
+
+This is a replication of https://ourworldindata.org/grapher/share-of-deaths-by-cause-2016
+```{r, fig.width = 10, fig.height = 6}
+my_colors <- rev(c("#5378B5", "#D14748", "#51A75D", "#F7B04A", "#B46CC3", "#4AA3A9", "#E9524E", "#ACD39C", "#FEDB60", "#BC8CBC", "#91CFD5", "#E9524E", "#80BF58", "#F19272", "#D59FC6", "#75C192", "#939494", "#FCED9E", "#ACD39C", "#D5D448", "#71999F", "#A34952", "#E35A7B", "#E04561", "#EC8580", "#F9C5A0", "#E9A48F", "#D8837D", "#D4A9A6", "#D5D5D5", "#D5B4A5", "#D8B4A2"))
+
+global_mort %>% 
+  filter(country_code == "OWID_WRL", year == 2016) %>% 
+  mutate(cause = fct_reorder(cause, percent, max)) %>% 
+  ggplot(aes(cause, percent/100, fill = cause)) +
+  geom_hline(yintercept = 0, color = "gray80") +
+  geom_bar(stat = "identity",
+           width = .8) +
+  geom_text(aes(label = paste0(round(percent, 2), "%")),
+            nudge_y = .002,
+            hjust = 0,
+            color = "gray30") +
+  coord_flip() +
+  scale_y_continuous(breaks = seq(0, .3, .05), 
+                     expand = c(0,0), 
+                     limits = c(0,.35), 
+                     labels = scales::percent) +
+  labs(title = "Share of deaths by cause, World 2016", caption = "Source : IHME, Global Burden of Dissease",
+       subtitle = "Data refers to the specific cause of death, which is distinguished from risk factors for death, such as air pollution, diet and other lifestyle factors.\nThis is shown by cause of death as the percentage of total deaths.                                                                                                                                ") + # Spaces are a hacky way to get this to work.
+  scale_fill_manual(values = my_colors) +
+  theme_minimal() +
+  theme(legend.position = "none", 
+        axis.title = element_blank(), 
+        panel.grid.major.x = element_line(linetype = "dashed", color = "gray80"), 
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank(), 
+        panel.grid.minor.x = element_blank(), 
+        plot.title = element_text(hjust = -0.45),
+        plot.subtitle = element_text(hjust = 1),
+        plot.caption = element_text(hjust = -0.38),
+        text = element_text(family = "Segoe UI")) # This is not the correct font, but it looks better than when I use Arial.
+```
+
+
+This plot is for fun.
+```{r, fig.width = 10}
+two_c <- global_mort %>% 
+  filter(country %in% c("Canada", "United States")) %>% 
+  filter(cause %in% unique(global_mort$cause)[1:5])
+
+global_mort %>% 
+  filter(cause %in% unique(global_mort$cause)[1:5]) %>% 
+  ggplot(aes(year, percent/100, group = country)) +
+  geom_line(alpha = .1) +
+  geom_line(data = two_c, aes(color = country_code), size = 1.1) +
+  scale_y_continuous(labels = scales::percent) +
+  facet_grid(.~ cause) + 
+  labs(color = "Country") +
+  theme_minimal() +
+  theme(legend.position = "bottom", 
+        strip.text = element_text(face = "bold"),
+        axis.title = element_blank())
+```
