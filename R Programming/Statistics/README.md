@@ -2,7 +2,7 @@ Here are some of the analyses I completed when taking my first programming based
 
 Rather than downloading the html files, you can view them through the links here:
 
-1 -Day Care - Two Way Anova
+1 - Day Care - Two Way Anova
 http://htmlpreview.github.io/?https://github.com/CUBICinfinity/Creations/blob/master/R%20Programming/Statistics/1%20-Day%20Care%20-%20Two%20Way%20Anova.html
 
 2 - Student Housing - Simple Report
