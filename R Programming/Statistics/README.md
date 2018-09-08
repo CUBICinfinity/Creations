@@ -1,4 +1,4 @@
-Here are some of the analyses I completed when taking my first programming based statistics course.
+Here are some of the analyses I completed when taking my first programming based statistics course. The order I chose matters.
 
 Rather than downloading the html files, you can view them through the links here:
 
