@@ -1,3 +1,5 @@
+Here are some of the analyses I completed when taking my first programming based statistics course.
+
 Rather than downloading the html files, you can view them through the links here:
 
 1 -Day Care - Two Way Anova
