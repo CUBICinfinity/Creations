@@ -1,1 +1,1 @@
-In this folder I attempt to mimic plots found on the internet. I had help from Dylan McDowell https://github.com/dylanjm.
+In this folder I mimic plots found on the internet. I received some help from Dylan McDowell on this https://github.com/dylanjm.
