@@ -1,4 +1,4 @@
-Asteroid Hell - The game you play in hell
+Asteroid Hell - The game they play in hell
 ==============================================================
 Features that were implemented beyond the course requirements:
 --------------------------------------------------------------
