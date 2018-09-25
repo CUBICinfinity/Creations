@@ -1,6 +1,10 @@
-I like making adventure maps in Minecraft using it's redstone/command_block system. These are my two best ones so far:
+#### My Minecraft adventure maps
 
-BLACK PEARL
+I enjoy making adventure games with Minecraft's redstone/command_block system. These are my two best so far:
+
+
+Black Pearl
+----------
 
 This is a puzzle and parkour Minecraft adventure map. This took 80+ hours and over 200 commands.
 
@@ -11,6 +15,8 @@ To install, put the Map folder in Saves and the Resource Pack folder in Resource
 
 This map was inspired by Myst and as a result you won't be able to beat it if the music stays muted. Overall, it requires some thought and attention to detail to complete.
 
-ESCAPE ROOM
+
+Escape Room by Cubic Infinity
+----------
 
 Unlike Black Pearl, this is a full version and it's available on [MinecraftMaps.com](http://www.minecraftmaps.com/puzzle-maps/escape-room-by-cubic-infinity). It also uses a large number of commands, but the work is focused on a single room. This is one of the best Minecraft Escape Rooms out there (a subjective statement). I received feedback from some of the players and one of them said it was like a real escape room. They also thought I should make more escape rooms, which is biased because the ones who played it already like these kinds of maps.
