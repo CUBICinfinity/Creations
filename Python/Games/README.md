@@ -18,8 +18,8 @@ Features that were implemented beyond the course requirements:
 * Hell theme  
 * Looping background muzak  
 * Game treats player like a slave  
-* Game does not require the user to install Python  
 --------------------------------------------------------------
 Wishlist:
 --------------------------------------------------------------
 * Graphics settings prompt
+* Game does not require the user to install Python
