@@ -262,4 +262,8 @@ sk_predictions = sk_dt.predict(data_sk_test)
 print("\nPerformance of sklearn decision tree predicting type of death")
 print(classification_report(targets_sk_test, sk_predictions))
 print("Mine performs a little better than the DecisionTreeClassifier, but this\
- might be unfair because it treats the atributes numerically.n")
+ might be unfair because it treats the atributes numerically and I used label-\
+encoding.\n")
+
+print("As would be expected, the root node asks about the age of the individua\
+l. print(classifier.tree.question)")
