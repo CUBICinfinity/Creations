@@ -8,7 +8,7 @@ Black Pearl (Alpha)
 
 This is a sci-fi Minecraft adventure map with advanced mechanics and hidden features.
 
-It is the most extensive individual project I have ever undertaken, and I hope to release the beta in late April 2019 when I get some time off from school. I used to keep a link to the map on Google Drive, but I've closed it from the public. I've included some screenshots instead.
+It is the most extensive individual project I have ever undertaken, and I hope to release the beta in late April 2019. I used to keep a link to the map on Google Drive, but I've closed it from the public. You can view the included screenshots.
 
 It runs in vanilla Minecraft and includes a resource pack that loads automatically. The pack has replaced textures, advancements, music files, and voice recordings.
 
