@@ -2,7 +2,7 @@
 """
 Created on Sat Feb 16 14:55:00 2019
 
-My Neural Network
+My Neural Network Implementation
 
 @author: Jim
 """
