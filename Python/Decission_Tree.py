@@ -2,6 +2,8 @@
 """
 Created on Fri Feb  1 20:30:00 2019
 
+My own decission tree classifier
+
 @author: Jim
 """
 
@@ -42,8 +44,7 @@ class QualitativeDecisionTree:
         else: 
             return decision.ask(data_point)
 
-    # Building a visualization would be nice, but it requires more time
-    # than I have.
+    # Building a visualization would be nice. This is a quick solution.
     def reveal_structure(self, parent = "root"):
         if parent == "root":
             print("\nRoot node: '{}'".format(self.question))
