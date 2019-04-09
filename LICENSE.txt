@@ -1,4 +1,12 @@
-A quick note: I include the GNU license simply to cover my authorship, but it may not precisely convey my feelings toward the content of this repository. I ask simply that you be fair and exercise common sense. Likewise, though I have some experience with copyright laws and fair use, if I have unknowingly violated anyone's terms, I invite those offended to inform me so that I can make the necessary corrections. The internet is best protected by our cooperation. License below:
+A quick note: I include the GNU license simply to cover my authorship, 
+but it may not precisely convey my feelings toward the content of this 
+repository. I ask simply that you be fair and exercise common sense. 
+Likewise, though I have some experience with copyright laws and fair use, 
+if I have unknowingly violated anyone's terms, I invite those offended 
+to inform me so that I can make the necessary corrections. 
+
+A free internet is best protected by our cooperation.
+See license below:
 
 GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
