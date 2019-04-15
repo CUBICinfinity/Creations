@@ -2,8 +2,8 @@
 """
 Created on Fri Mar  8 13:58:18 2019
 Stock Market Prediction
-@author: Calvin Garrett https://github.com/CSG118
-Taken and started from
+@author: Calvin Garrett https://github.com/CSG118 and Jim Greene https://github.com/CUBICinfinity
+Initially taken and started from
 https://www.analyticsvidhya.com/blog/2018/10/predicting-stock-price-machine-learningnd-deep-learning-techniques-python/
 """
 
