@@ -2,7 +2,7 @@
 
 Welcome,
 
-I started this repository to serve as a portfolio. I've recently started building a website to replace this that will include some data science tutorials and other fun stuff.
+I started this repository to serve as a portfolio. I've now created a website with a similar purpose: https://cubicinfinity.github.io/
 
 Some navigation tips:<br />
 All of the ".md" files can be viewed in your browser by simply clicking on them. The HTML versions are preffered for better viewing. If you want a cleaner page you can download and view the ".html" file, or prepend the url with "http://htmlpreview.github.io/?" For example: http://htmlpreview.github.io/?https://github.com/CUBICinfinity/Creations/blob/master/R/Statistics/6%20-%20Bee%20Repelant%20-%20Permutation%20Experiment.html
