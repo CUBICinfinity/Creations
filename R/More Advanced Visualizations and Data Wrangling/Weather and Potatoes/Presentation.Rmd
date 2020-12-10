@@ -35,7 +35,7 @@ Having heard that hot days and cold nights are good for growing potatoes, the te
 ![](files/Line_Multi.png)
 This plot is more difficult to read at first, but it shows a lot and raises more questions. It helped me learn how to condense many variables on the same plot. I want to redo this using TrelliscopeJs.
 
-This is a picture of me discussing the design with the group.
+This is a picture of me discussing the design with the group. (I guess excessive bloom happens in real photography too.)
 ![](files/sharp.jpg)
 
 
