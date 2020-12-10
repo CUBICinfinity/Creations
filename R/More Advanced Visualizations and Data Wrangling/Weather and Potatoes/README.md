@@ -1,1 +1,1 @@
-You may click here, http://htmlpreview.github.io/?https://github.com/CUBICinfinity/Creations/blob/master/R/More%20Advanced%20Visualizations%20and%20Data%20Wrangling/Weather%20and%20Potatoes/Presentation.html but for the 3D plot to work, you need to download the html file.
+You may click here http://htmlpreview.github.io/?https://github.com/CUBICinfinity/Creations/blob/master/R/More%20Advanced%20Visualizations%20and%20Data%20Wrangling/Weather%20and%20Potatoes/Presentation.html, but for the 3D plot to work, you need to download the html file.
